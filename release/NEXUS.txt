@@ -1,0 +1,38 @@
+=== SHORT DESCRIPTION ===
+Adds a Haggling skill to the Character tab. Trade with traders to level it up and get up to 12% off what you buy and 12% more for what you sell. Alcohol, Drinking and mushrooms count, and level 10 unlocks the Silver Tongue perk.
+
+=== FULL DESCRIPTION (BBCode) ===
+[size=5][b]Haggling[/b][/size]
+A new [b]Haggling[/b] skill for Obenseuer. Trade with traders to level it up, and get better prices as you go.
+
+[size=4][b]Features[/b][/size]
+[list]
+[*][b]A real skill on the Character tab.[/b] It looks like the game's own skills, starts unlearned, and shows the "New skill learned" and level-up popups.
+[*][b]XP from trading.[/b] Every purchase or sale with a trader gives XP, more for bigger trades. Each trade on the same day gives a little less, so the grind stays fair.
+[*][b]Better prices.[/b] Up to [b]12% off[/b] what you buy and [b]12% more[/b] for what you sell at level 10. The prices in the trade screen already include your bonus.
+[*][b]No money loops.[/b] A trader never pays you more for an item than you'd pay to buy it back.
+[*][b]Your state matters.[/b] Alcohol shrinks the price bonus but gives extra XP, like the game's skills (worse odds, more learning). Your Drinking skill shrinks the penalty, and mushrooms change your effective level using the game's own formula.
+[*][b]Level 10 perk: Silver Tongue.[/b] Traders who don't normally buy stolen goods will buy them from you at the stolen price. They still won't buy back what was stolen from them.
+[*]XP is saved with your save game and belongs to that character only.
+[/list]
+Every number can be changed in the config file or with ConfigurationManager.
+
+[size=4][b]Requirements[/b][/size]
+[list]
+[*]BepInEx 6 (Unity.Mono, x64)
+[/list]
+
+[size=4][b]Installation[/b][/size]
+Extract the archive into the game folder (the one with Obenseuer.exe), so the DLL ends up in [i]BepInEx\plugins\Obenseuer-Haggling\[/i].
+
+[size=4][b]Works well with[/b][/size]
+[list]
+[*][b]Stealth[/b]: a Stealth skill for getting away with it unseen.
+[*][b]Bribery+[/b]: ask anyone for money with the game's Bribery skill.
+[*][b]Scavenger[/b] and [b]Loot Map[/b].
+[/list]
+
+[size=4][b]Source[/b][/size]
+https://github.com/JuanBerta/Obenseuer-Haggling
+
+Made by JuanBerta, with AI assistance (Claude).
